@@ -1,24 +1,20 @@
 html{
-font-family: 'Be Vietnam', sans-serif;
+    font-family: 'Be Vietnam', sans-serif;
     background-color: #f5bc3b;
     color: #192944;
     text-align: justify;
-    width: 80%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
 }
 
-h1, h2, h3{
-    font-family: "Abel", "sans-serif";
-    text-transform: uppercase;
-}
-
 h1{
+    font-family: 'Raleway', sans-serif;
     margin-bottom: 0;
     font-size: 40px;
 }
 h2{
-    font-family: "Abel", "sans-serif";
+    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     font-size: 40px;
     border-top: white 3px solid;
@@ -26,8 +22,16 @@ h2{
 }
 
 h3{
-    font-size: 30px
+    font-family: "Abel", "sans-serif";
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 #présentation{
     display: inline-block;
@@ -39,4 +43,106 @@ h3{
     display: inline-block;
     text-align: center;
     vertical-align: middle;
+}
+
+ul{
+    margin-left: 20px;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    text-align: left;
+
+}
+.social{
+    display: inline-block;
+}
+#identify{
+    margin-bottom: 90px;
+}
+#compbloc{
+    margin-bottom: 90px;
+}
+#compcomm{
+    margin-left: 10%;
+    margin-right: auto;
+    width: 30%;
+    vertical-align: top;
+    display: inline-block;
+    padding-right: 2%;
+    border-right: white 3px solid;
+
+}
+#compdev{
+    margin-right: 10%;
+    vertical-align : top;
+    display: inline-block;
+    width: 40%;
+}
+img{
+    margin: 5px;
+}
+
+#expbloc{
+    margin-bottom: 90px;
+}
+#jobcontainer{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.jobs{
+    display: inline-block;
+    width: 25%;
+    margin: 10px;
+    vertical-align: top;
+}
+#jobmid{
+    border-left: white 3px solid;
+    border-right: white 3px solid;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.jobname{
+    margin-bottom: 0;
+}
+
+#_other{
+    display: block;
+    width: auto;
+}
+
+
+.year{
+    font-size: 45px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.info_diploma{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 3px;
+}
+
+.diploma_column{
+    display: inline-block;
+    margin: 10px;
+}
+
+.italic_info{
+    margin-top: 0;
+    font-style: italic;
+    font-size: 15px;
+}
+
+#info{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    padding-left: 20px;
+    border-left: white 3px solid;
+}
+#formations{
+    display: inline-block;
+    vertical-align: top;
+    width: 65%;
 }
