@@ -62,14 +62,11 @@ ul{
 .social{
     display: inline-block;
 }
-#identify{
+.blockparty{
     margin-bottom: 90px;
 }
-#compbloc{
-    margin-bottom: 90px;
-}
+
 #compcomm{
-    margin-left: 10%;
     margin-right: auto;
     width: 30%;
     vertical-align: top;
@@ -88,9 +85,6 @@ img{
     margin: 5px;
 }
 
-#expbloc{
-    margin-bottom: 90px;
-}
 #jobcontainer{
     width: 90%;
     margin-left: auto;
@@ -151,4 +145,45 @@ img{
     display: inline-block;
     vertical-align: top;
     width: 65%;
+}
+
+
+/* mediaqueries=========================================================== */
+@media all and (max-width: 890px) {
+    html{
+        max-width: 490px;
+        width: 100%;
+        margin: 2px;
+        text-align: left;
+    }
+    h1,h2{
+        font-size: 25px;
+    }
+
+    h3{
+        font-size: 25px;
+    }
+
+    #présentation {
+        display: inline-block;
+        margin-top: 80px;
+        width: 200px;
+        margin-right: 10px;
+        vertical-align: bottom;
+    }
+    #main {
+        display: inline-block;
+        vertical-align: bottom;
+    }
+
+    #jobmid{
+        border-left: white 3px solid;
+        border-right: white 3px solid;
+        padding-left: 5px;
+        padding-right: 20px;
+    }
+    .blockparty{
+        margin-bottom: 40px;
+    }
+
 }
