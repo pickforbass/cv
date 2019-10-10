@@ -33,8 +33,14 @@ h3{
 }
 
 
+#socialblock{
+    position: fixed;
+    left: 40px;
+    top: 5px;
+}
 #présentation{
     display: inline-block;
+    margin-top: 80px;
     width: 33%;
     margin-right: 25%;
     vertical-align: middle;
