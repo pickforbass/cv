@@ -147,6 +147,30 @@ img{
     width: 65%;
 }
 
+#callme{
+    width:33%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border: #192944 3px solid;
+    border-radius: 20px;
+    padding: 20px;
+    height: 450px;
+}
+
+.contactinfo{
+    margin-top: 10px;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+#messagearea{
+    width: 100%;
+    height: 80px;
+}
 
 /* mediaqueries=========================================================== */
 @media all and (max-width: 890px) {
