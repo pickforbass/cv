@@ -1,6 +1,7 @@
 /*STANDARDS*/
 
-html{
+html
+{
     font-family: 'Be Vietnam', sans-serif;
     background-color: #f5bc3b;
     color: #192944;
@@ -9,22 +10,38 @@ html{
     line-height: 1.8;
 }
 
-h1{
+#preview{
+    display: none;
+}
+
+h1
+{
     font-family: 'Raleway', sans-serif;
     margin-bottom: 0;
     border-bottom: white 3px solid;
     font-size: 40px;
     line-height: 1.5;
+    opacity: 0;
+    animation: fadein 2.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards ;
 }
-h2{
+
+h2
+{
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     font-size: 40px;
     margin-top: 0;
     line-height: 1.5;
+    opacity: 0;
+    animation: fadein 3s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards ;
 }
 
-h3, nav{
+h3, nav
+{
     font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
     font-size: 33px;
@@ -33,7 +50,8 @@ h3, nav{
     line-height: 1.2;
 }
 
-.italic_info{
+.italic_info
+{
     margin-top: 0;
     font-style: italic;
     font-size: 15px;
@@ -42,16 +60,19 @@ h3, nav{
 /*End of basics settings*/
 
 /*MENU & header part*/
-header {
-    margin-bottom: 80px;
+header
+{
+    margin-bottom: 30px;
 }
 
-nav {
+nav
+{
     display: flex;
     justify-content: center;
 }
 
-.menu, a {
+.menu, a
+{
     background: #192944;
     display: inline-block;
     color: floralwhite;
@@ -63,37 +84,85 @@ nav {
     text-decoration: none;
 }
 
-#socialblock{
-    display: flex;
+#complink
+{
+    opacity: 0;
+    animation: fadein 3s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards ;
 }
 
-.menu:hover {
+#explink
+{
+    opacity: 0;
+    animation: fadein 3s;
+    animation-delay: 1.8s;
+    animation-fill-mode: forwards ;
+}
+
+#diplink
+{
+    opacity: 0;
+    animation: fadein 3s;
+    animation-delay: 1.6s;
+    animation-fill-mode: forwards ;
+}
+
+#infolink
+{
+    opacity: 0;
+    animation: fadein 3s;
+    animation-delay: 2.2s;
+    animation-fill-mode: forwards ;
+}
+
+#contlink
+{
+    opacity: 0;
+    animation: fadein 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards ;
+}
+
+.menu:hover
+{
     transform: scale(1.1);
     transition-duration: .33s;
 }
 
-#socialblock {
+.menu:active
+{
+    transform: scale(0.9);
+}
+
+#socialblock
+{
+    display: flex;
     position: -webkit-sticky;
     position: sticky;
     left: 40px;
     top: 5px;
 }
 
-#socialblock a {
-     background: #f5bc3b !important;
+#socialblock a
+{
+     background: transparent !important;
      padding: 0 !important;
      border: 0 !important;
 }
 
-.social {
+.social
+{
     display: inline-block;
 }
 
-img{
+img
+{
     margin: 5px;
 }
 
-#présentation{
+#présentation
+{
     display: inline-block;
     margin-top: 30px;
     width: 25%;
@@ -102,125 +171,172 @@ img{
 }
 /*end of MENU & header part*/
 
-.blockparty{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 80px;
+.show
+{
+    display: flex !important;
 }
 
-.blocktitle{
+.blockparty
+{
+    display: none;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    ;
+}
+
+.blocktitle
+{
     width: 25%;
 }
 
-.block_container{
+.block_container
+{
     width: 70%;
     display: flex;
     flex-wrap: wrap;
 }
 
-#main{
+#main
+{
     display: inline-block;
     text-align: center;
     vertical-align: middle;
 }
 
-ul{
+ul
+{
     padding: 0;
     list-style: none;
 }
 
-#menu_list{
+#menu_list
+{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     margin: 0;
 }
 
-#compcomm{
+#compcomm
+{
     margin-right: 10px;
     width: 50%;
     padding-right: 10px;
     border-right: white 3px solid;
 }
 
-#compdev{
+#compdev
+{
     vertical-align : top;
-    display: inline-block;
     width: 40%;
+    display: block;
 }
-
-#compdev p{
+#compdev p
+{
     text-align: center;
 }
+#compdev div:last-child
+{
+    display: flex;
+    justify-content: center;
+}
 
 
-.block_container .jobs:first-child{
+
+.block_container .jobs:first-child
+{
     margin-left: 0 !important;
 }
 
-.jobs{
+.jobs
+{
     display: inline-block;
     width: 25%;
     margin: 10px;
     vertical-align: top;
 }
 
-#jobmid{
+#jobmid
+{
     border-left: white 3px solid;
     border-right: white 3px solid;
     padding-left: 20px;
     padding-right: 20px;
 }
-.jobname{
+.jobname
+{
     margin-bottom: 0;
 }
 
-#_other{
+#_other
+{
     display: block;
     width: auto;
 }
 
-.year{
+.year
+{
     font-size: 50px;
     display: inline-block;
     vertical-align: middle;
 }
 
-.info_diploma{
+.info_diploma
+{
     display: inline-block;
     vertical-align: middle;
     margin-left: 3px;
 }
 
-.diploma_column{
+.diploma_column
+{
     display: inline-block;
     margin-right: 30px;
 }
 
-#formations{
+#formations
+{
     display: inline-block;
     vertical-align: top;
     width: 100%;
 }
 
-#callme{
+#callme
+{
     width: 70%;
     background-color: white;
     border: #192944 3px solid;
     border-radius: 20px;
     padding: 20px;
-    height: 450px;
+    height: 840px;
 }
 
-input[type=text]{
+input[type=text]
+{
     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
 }
 
-#messagearea{
+#messagearea
+{
     width: 100%;
     height: 80px;
+}
+input, textarea
+{
+    border: 2px solid #192944;
+    border-radius: 10px 0 10px 0;
+}
+
+.buttons {
+    padding : 2px;
+    width : 80px;
+    border : 2px solid #192944;
+    border-radius: 12px;
+    text-align: center;
+    background: white;
+    margin: 10px 15px;
 }
 
 /* ========mediaqueries========= */
@@ -230,10 +346,6 @@ input[type=text]{
         margin: 0 2px;
         font-size: 13px;
         display: block;
-    }
-
-    header{
-        margin-bottom: 30px;
     }
     #socialblock{
         justify-content: center;
@@ -302,5 +414,16 @@ input[type=text]{
 
     #callme{
         margin: 0 auto 0 auto;
+    }
+}
+
+
+/*------------Keyframes-------------*/
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
     }
 }

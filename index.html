@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <title>Quentin FORTIER - Développeur Web</title>
     <meta charset="UTF-8">
-    <title>Quentin FORTIER</title>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta name="title" content="Quentin FORTIER - Développeur Web">
+    <meta name="description" content="Issu de la communication dans la culture et l'événementiel, j'étudie le développement web au sein de l'école UPTO à Fourmies. ">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://quentinitsme.000webhostapp.com/">
+    <meta property="og:title" content="Quentin FORTIER - Développeur Web">
+    <meta property="og:description" content="Issu de la communication dans la culture et l'événementiel, j'étudie le développement web au sein de l'école UPTO à Fourmies. ">
+    <meta property="og:image" content="img/preview.png">
+
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:200&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-<div class="blockparty">
+<header>
     <div class="header">
+        <img src="img/preview.png" height="1294" width="1552" id="preview">
         <div id="socialblock">
             <div class="social" id="github"><a href="https://github.com/pickforbass"><img src="img/github.png"
                                                                                            height="55" alt="55"></a></div>
             <div class="social" id="linkedin"><a href="https://www.linkedin.com/in/quentinfortier/"><img src="img/linkedin_logo.png"
                                                                                             height="55" alt="55"></a></div>
-            <div class="social" id="facebook"><a href="https://www.facebook.com/quentinkent.fortier"><img src="img/facebook_logo.png"
-                                                                                            height="55" alt="logo"></a></div>
             <div class="social" id="mail"><a href="mailto:quentin.fortier@gmail.com"><img src="img/Mail.png"
                                                                                             height="55" alt="logo"></a></div>
-            <div class="social" id="download"><a href="CV_HTML.pdf" download="FORTIER.pdf"><img alt="logo"
-                                                                                                height="55" src="img/dwld.png"></a></div>
+            <div class="social" id="download"><a href="CV_HTML.pdf" download="FORTIER.pdf"><img alt="logo" height="55" src="img/dwld.png"></a></div>
         </div>
         <p id="présentation">
             Issu de la communication dans la culture et l'événementiel,
@@ -34,96 +40,122 @@
             <h2>Développeur WEB</h2>
         </div>
     </div>
-</div>
+    <nav>
+        <ul id="menu_list">
+            <li class="menu" id="complink">Compétences</li>
+            <li class="menu" id="explink">Expérience</li>
+            <li class="menu" id="diplink">Diplômes</li>
+            <li class="menu" id="infolink">More</li>
+            <li class="menu" id="contlink">Contact</li>
+        </ul>
+    </nav>
+</header>
 
-    <div class="blockparty">
-        <h3>Mes compétences web et comm'</h3>
+    <div class="blockparty" id="compbloc">
+        <div class="blocktitle" id="comptitle">
+            <h2>Mes compétences</h2>
+        </div>
+        <div class="block_container">
             <ul id="compcomm">
-                <li>Rédaction et conception de supports</li>
-                <li>Planification et organisation d'actions</li>
+                <li>Rédaction et conception de supports de communication</li>
+                <li>Planification et organisation d'actions et événements</li>
                 <li>Gestion et mise en oeuvre de projets</li>
                 <li>Community management</li>
                 <li>Gestion et formation d'équipes de bénévoles</li>
             </ul>
-        <div id="compdev">
-            <p>Langages maitrisés</p>
-            <img src="img/HTML CSS.png" height="60" alt="html & css">
-            <img src="img/JavaScript-logo.png" height="60" alt="Javascript">
-            <img src="img/python.png" height="60" alt="Python">
-            <img src="img/mysql.png" height="60" alt="MySQL">
-            <img src="img/IMGBIN_php-png_vd3scDe7.png" height="60" alt="PHP">
-
+            <div id="compdev">
+                <p id="languages"><strong>Langages maitrisés</strong></p>
+                <div>
+                <img src="img/HTML CSS.png" height="60" alt="html & css">
+                <img src="img/JavaScript-logo.png" height="60" alt="Javascript">
+                <!--<img src="img/python.png" height="60" alt="Python">-->
+                <!--<img src="img/mysql.png" height="60" alt="MySQL">-->
+                <!--<img src="img/IMGBIN_php-png_vd3scDe7.png" height="60" alt="PHP">-->
+                </div>
+                À venir : PHP, mySQL et plein de frameworks...
+            </div>
         </div>
     </div>
 
-    <div class="blockparty">
-        <h3>Mon expérience</h3>
-            <div id="jobcontainer">
+    <div class="blockparty" id="expbloc">
+        <div class="blocktitle" id="exptitle">
+            <h2>Mes expériences</h2>
+        </div>
+        <div class="block_container">
                 <div class="jobs">
                     <p class="jobname"><strong>FORSUD</strong></p>
                     <p class="jobtime italic_info">mai-septembre 2019</p>
-                    <p class="jobdesc">Chargé de communication<br> Mise en place des outils, de la
-                charte graphique et de la stratégie de communication.</p>
+                    <p class="jobdesc"><strong>Chargé de communication</strong><br> Mise en place des outils, de la
+                    charte graphique et de la stratégie de communication</p>
                 </div>
 
             <div class="jobs" id="jobmid">
                 <p class="jobname"><strong>IAD</strong></p>
                 <p class="jobtime italic_info">janvier-avril 2019</p>
-                <p class="jobdesc">Assistant de production<br>Organisation de la communication du colloque "21stcentury:
-            A Digtial Odyssey". Remise à jour de la base de données des alumnis.</p>
+                <p class="jobdesc"><strong>Assistant de production</strong><br>Organisation de la communication du colloque "21st century:
+            A Digital Odyssey". Remise à jour de la base de données des alumnis</p>
             </div>
 
             <div class="jobs">
                 <p class="jobname"><strong>ZAMALAK</strong></p>
                 <p class="jobtime italic_info">2015 à 2016</p>
-                <p class="jobdesc">Chargé de développement<br> Communication sur les concerts et les tournées des artistes,
+                <p class="jobdesc"><strong>Chargé de développement</strong><br> Communication sur les concerts et les tournées des artistes,
                     régie du festival PONSO et supervision de la gestion administrative</p>
             </div>
-            <div class="jobs" id="_other">D'autres expériences : MainStage, KalooBang - Électropicales - salon Zanimos -
+            <div class="jobs" id="_other">
+                <strong>D'autres expériences</strong> : MainStage, KalooBang - Électropicales - salon Zanimos -
                 NRJ Réunion - Mac Donald’s...
             </div>
         </div>
     </div>
 
 
-    <div class="blockparty">
-        <div id="formations">
-            <h3>Ma formation</h3>
-            <div class="diploma_column">
-                <div class="diploma">
-                    <div class="year">2020</div>
-                    <div class="info_diploma">
-                        <div class="name_diploma"><strong>Développement web</strong>(éq. BAC+2)</div>
-                        <div class="italic_info">UPTO Fourmies</div>
+    <div class="blockparty" id="formbloc">
+        <div class="blocktitle" id="formtitle">
+            <h2>Mes diplômes & formations</h2>
+        </div>
+        <div class="block_container">
+            <div id="formations">
+                <div class="diploma_column">
+                    <div class="diploma">
+                        <div class="year">2020</div>
+                        <div class="info_diploma">
+                            <div class="name_diploma"><strong>Développement web</strong>(éq. BAC+2)</div>
+                            <div class="italic_info">UPTO Fourmies</div>
+                        </div>
+                    </div>
+                    <div class="diploma">
+                        <div class="year">2017</div>
+                        <div class="info_diploma">
+                            <div class="name_diploma"><strong>  Master en production musicale</strong></div>
+                            <div class="italic_info">IAD</div>
+                        </div>
                     </div>
                 </div>
-                <div class="diploma">
-                    <div class="year">2017</div>
-                    <div class="info_diploma">
-                        <div class="name_diploma"><strong>  Master en production musicale</strong></div>
-                        <div class="italic_info">IAD</div>
+                <div class="diploma_column">
+                    <div class="diploma">
+                        <div class="year">2015</div>
+                        <div class="info_diploma">
+                            <div class="name_diploma"><strong>Pilotage de projets artistique</strong></div>
+                            <div class="italic_info">Jeudi formations</div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="diploma_column">
-                <div class="diploma">
-                    <div class="year">2015</div>
-                    <div class="info_diploma">
-                        <div class="name_diploma"><strong>Pilotage de projets artistique</strong></div>
-                        <div class="italic_info">Jeudi formations</div>
-                    </div>
-                </div>
-                <div class="diploma">
-                    <div class="year">2014</div>
-                    <div class="info_diploma">
-                        <div class="name_diploma"><strong>Prise en main des réseaux sociaux</strong></div>
-                        <div class="italic_info">La Boite à donuts</div>
+                    <div class="diploma">
+                        <div class="year">2014</div>
+                        <div class="info_diploma">
+                            <div class="name_diploma"><strong>Prise en main des réseaux sociaux</strong></div>
+                            <div class="italic_info">La Boite à donuts</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="info">
-        <h3>Plus d'infos</h3>
+    </div>
+    <div class="blockparty" id="infobloc">
+        <div class="blocktitle" id="infotitle">
+            <h2>plus d'infos</h2>
+        </div>
+        <div class="block_container">
             <ul>
                 <li>Né le 04/11/83 - 36 ans</li>
                 <li>Anglais niveau B2/C1</li>
@@ -132,27 +164,40 @@
                 <li>Cohabitant légal - 1 enfant</li>
                 <li>Passions : musique astronomie cuisine cinéma tennis</li>
             </ul>
-    </div>
-
-    </div>
-
-<div class="blockparty">
-    <div>
-        <h3>Contactez moi</h3>
-    </div>
-    <form id="callme" method= post enctype ="text/plain" action="mailto:70sr8q3c4tvrbz9@jetable.org">
-        <div class="contactinfo">Nom:</div><input name="thename" type="text">
-        <div class="contactinfo">Prénom:</div><input name ="faminame"type="text">
-        <div class="contactinfo">Mail:</div><input name="name" type="mail">
-        <div class="contactinfo">Sexe:</div><INPUT TYPE=RADIO NAME=Sexe VALUE=Masculin>Masculin
-        <INPUT TYPE=RADIO NAME=Sexe VALUE=Féminin>Féminin
-        <INPUT TYPE=RADIO NAME=Sexe VALUE=Autre>Autre
-        <div class="contactinfo">Votre message :</div><textarea id="messagearea" type="textarea" name= "commentaire"></textarea>
-        <div>
-        <INPUT TYPE=SUBMIT VALUE=Envoyer>
-        <INPUT TYPE=RESET VALUE=Effacer>
         </div>
-    </form>
+    </div>
+
+<div class="blockparty" id="contactbloc">
+    <div class="blocktitle" id="contacttitle">
+        <h2>Contactez-moi</h2>
+    </div>
+    <!--<form id= "callme" method= post enctype= "text/plain" action= "mailto:70sr8q3c4tvrbz9@jetable.org">-->
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeIq7heEVPbtFOG4vh6Js3QUsnZpRyBHaB0TnOBjiVV_7jNkg/viewform?embedded=true"
+                width="640" height="892" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+        <!--<div>
+            <div class= "contactinfo">
+                Nom
+            </div>
+            <input name="Nom" type="text">
+            <div class= "contactinfo">
+                Prénom
+            </div>
+            <input name ="Prénom"type="text" label="name">
+            <div class= "contactinfo">
+                Mail
+            </div>
+            <input name="Mail" type="mail">
+            <div class= "contactinfo"
+            >Votre message
+            </div>
+            <textarea id="messagearea" type="textarea" name= "Votre message" label="Votre message"></textarea>
+            <div>
+            <input class = "buttons" type=SUBMIT value=Envoyer>
+            <input class = "buttons" type=RESET value=Effacer>
+            </div>-->
+        </div>
+    <!--</form>-->
 </div>
+<script src="script.js"></script>
 </body>
 </html>
